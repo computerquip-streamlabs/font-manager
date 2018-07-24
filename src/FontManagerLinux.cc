@@ -123,6 +123,7 @@ FontDescriptor *createFontDescriptor(FcPattern *pattern) {
     convertWeight(weight),
     convertWidth(width),
     slant == FC_SLANT_ITALIC,
+    false,
     spacing == FC_MONO
   );
 }
